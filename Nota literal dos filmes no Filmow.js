@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Nota literal dos filmes no Filmow
 // @namespace   thiagobfiorenza
-// @description Avaliação literal dos filmes no Filmow.com
+// @description Nota literal dos filmes no Filmow.com
 // @include     https://filmow.com/*
 // @version     2.0.1
 // @grant       none
