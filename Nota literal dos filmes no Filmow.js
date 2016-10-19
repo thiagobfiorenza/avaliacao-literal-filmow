@@ -3,8 +3,9 @@
 // @namespace   thiagobfiorenza
 // @description Notas aparecem de forma literal nos filmes no Filmow.com (Ótimo filme, Bom, péssimo...)
 // @include     https://filmow.com/*
-// @version     2.0.1
+// @version     2.0.2
 // @grant       none
+// @updateURL https://openuserjs.org/meta/thiagobfiorenza/Nota_literal_dos_filmes_no_Filmow.meta.js
 // ==/UserScript==
 
 $('.navbar-sub.navbar-movie .span9').append('<div id="barrinhaInusitada" style="background-color: #51A351; color: #FFFFFF; display: none; font-size: 12px; font-weight: bold; height: 17px; margin-left: 358px; margin-top: -33px; padding: 11px 0; position: absolute; text-align: center; text-shadow: 2px 1px 1px #000000; width: 343px;">');
