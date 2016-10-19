@@ -1,10 +1,16 @@
 // ==UserScript==
 // @name        Avaliação literal dos filmes no Filmow.com
 // @namespace   thiagobfiorenza
+// @description Cria links de pesquisa pro imdb, torrents, legendas pros filmes do filmow
 // @include     https://filmow.com/*
-// @version     2.0.1
-// @description Avaliação literal dos filmes no Filmow.com
+// @history     2.0 - Layout antigo
+// @version     2.1
+// @require     https://code.jquery.com/jquery-2.1.1.min.js
+// @updateURL   https://openuserjs.org/install/thiagobfiorenza/Avaliação_literal_dos_filmes_no_Filmow.com.meta.js
+// @downloadURL https://openuserjs.org/install/thiagobfiorenza/Avaliação_literal_dos_filmes_no_Filmow.com.user.js
+// @grant       GM_xmlhttpRequest
 // ==/UserScript==
+
 $('.navbar-sub.navbar-movie .span9').append('<div id="barrinhaInusitada" style="background-color: #51A351; color: #FFFFFF; display: none; font-size: 12px; font-weight: bold; height: 17px; margin-left: 358px; margin-top: -33px; padding: 11px 0; position: absolute; text-align: center; text-shadow: 2px 1px 1px #000000; width: 343px;">');
 $('.star-rating .half-star[data-value=1]').hover(function(){
     $('#barrinhaInusitada').html('Lastimável (Um dos piores filmes da minha vida)').css('backgroundColor', '#CA0000').show();
